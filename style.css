@@ -1,6 +1,6 @@
 /* ===== GENERAL STYLE ===== */
 
-body{
+.body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f5f5f5;
     margin: 0;
@@ -10,7 +10,8 @@ body{
 
 /* ===== HEADER ===== */
 
-h1{
+.h1{
+    text-align: center;
     background-color: #e60012;
     color: white;
     padding: 20px;
@@ -18,19 +19,20 @@ h1{
     letter-spacing: 2px;
 }
 
-h2{
+.h2{
     color: #333;
+    text-align: center;
 }
 
 /* ===== NAVIGATION ===== */
 
-nav{
+.nav{
     text-align: center;
     padding: 15px;
     background-color: white;
 }
 
-nav a{
+.nav a{
     text-decoration: none;
     color: black;
     margin: 0 20px;
@@ -39,7 +41,7 @@ nav a{
     transition: 0.3s;
 }
 
-nav a:hover{
+.nav a:hover{
     color: #e60012;
 }
 
@@ -63,7 +65,7 @@ nav a:hover{
 
 /* ===== BUTTON ===== */
 
-button{
+.button{
     background-color: #e60012;
     color: white;
     border: none;
@@ -74,14 +76,14 @@ button{
     transition: 0.3s;
 }
 
-button:hover{
+.button:hover{
     background-color: black;
     transform: scale(1.05);
 }
 
 /* ===== INPUT BOX ===== */
 
-input{
+.input{
     padding: 10px;
     width: 250px;
     border: 1px solid #ccc;
@@ -107,7 +109,7 @@ input{
 
 /* ===== HR ===== */
 
-hr{
+.hr{
     border: none;
     height: 2px;
     background-color: #ddd;
