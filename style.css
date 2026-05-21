@@ -1,0 +1,114 @@
+/* ===== GENERAL STYLE ===== */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+/* ===== HEADER ===== */
+
+h1{
+    background-color: #e60012;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+h2{
+    color: #333;
+}
+
+/* ===== NAVIGATION ===== */
+
+nav{
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #e60012;
+}
+
+.active{
+    color: #e60012;
+    border-bottom: 3px solid #e60012;
+    padding-bottom: 5px;
+}
+
+/* ===== CONTENT BOX ===== */
+
+.section{
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* ===== BUTTON ===== */
+
+button{
+    background-color: #e60012;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: black;
+    transform: scale(1.05);
+}
+
+/* ===== INPUT BOX ===== */
+
+input{
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+/* ===== FOOTER ===== */
+
+.footer{
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.footer h2{
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+}
+
+/* ===== HR ===== */
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+}
